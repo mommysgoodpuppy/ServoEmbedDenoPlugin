@@ -1,6 +1,5 @@
 [toolchain]
-channel = "nightly"
-
+channel = "1.80.1"
 
 components = [
     "clippy",
