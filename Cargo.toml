@@ -1,0 +1,16 @@
+[package]
+name = "servo-embedding-example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+deno_core = "0.307.0"
+glutin = "0.32"  # For window management and OpenGL context
+libservo = { path = "./servo/components/servo" }
+euclid = "0.22.7"
+serde = { version = "1.0.210", features = ["derive"] }
+
+
